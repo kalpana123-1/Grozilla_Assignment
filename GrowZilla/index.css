@@ -1,0 +1,658 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: roboto;
+}
+
+button:hover,
+img {
+  cursor: pointer;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(250, 245, 245);
+  text-shadow: none;
+  text-rendering: auto;
+}
+
+#nav {
+  display: flex;
+  gap: 2%;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  padding-left: 50px;
+  height: 100px;
+}
+
+#nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dp {
+  float: left;
+  overflow: hidden;
+}
+
+.dp .btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#nav .dp:hover .btn,
+.active2:hover,
+.active1:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+.active:hover {
+  background-color: white;
+}
+
+.btn-jd {
+  background-color: orangered;
+  width: 8%;
+  height: 46px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.cont1 {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  background-color: #333;
+  color: white;
+  height: 370px;
+  padding-left: 3%;
+  padding-top: 5%;
+  gap: 18%;
+}
+
+.cont11 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cont11 h1 {
+  width: 70%;
+}
+
+.cont11 p {
+  width: 380px;
+}
+
+.cont11 > button {
+  background-color: orangered;
+  border: none;
+  border-radius: 4px;
+  width: 130px;
+  height: 40px;
+  color: white;
+}
+
+.boss {
+  width: 70%;
+  height: 250px;
+}
+
+.cont2 {
+  padding-top: 5%;
+  background-color: rgb(184, 187, 187);
+  height: 480px;
+  padding-bottom: 3%;
+}
+
+.cont21 {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+.cont22 {
+  display: grid;
+  grid-template-columns: 14% 14% 14%;
+  gap: 10%;
+}
+
+.cont21 > p {
+  width: 250px;
+  align-items: center;
+  margin-left: 40%;
+}
+
+.cont22 > div {
+  width: 100%;
+  height: 140px;
+  box-shadow: 2.5px 2.5px gray;
+  border-radius: 4px;
+  background-color: rgb(255, 254, 254);
+}
+
+.cont22 > div > p {
+  color: #333;
+}
+
+#we {
+  text-align: center;
+  margin-top: -20%;
+}
+
+#lorem {
+  margin-left: 200px;
+}
+
+.dolor {
+  margin-left: 200px;
+}
+
+.dolor1 {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.dolor11 {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.dolor img {
+  margin-left: 60px;
+}
+
+.dolor1 img {
+  margin-left: 60px;
+}
+
+.dolor11 img {
+  margin-left: 60px;
+}
+
+#btn {
+  margin-left: 45%;
+  margin-top: 80px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+#laythe {
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(114, 102, 102);
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#put {
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #ffff;
+  color: #111;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#byou {
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #ffff;
+  color: #111;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#back {
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(114, 102, 102);
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#lay {
+  margin-top: 50px;
+}
+
+#img1 {
+  border: 1px solid red;
+  width: 50%;
+  border-radius: 50px 0px 50px 50px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: red;
+}
+
+#our {
+  margin-top: 400px;
+}
+
+#esay {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  gap: 10%;
+}
+
+#img11 {
+  border: 1px solid red;
+  width: 50%;
+  border-radius: 50px 0px 50px 50px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: red;
+}
+
+#img111 {
+  border: 1px solid red;
+  width: 50%;
+  border-radius: 50px 0px 50px 50px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: red;
+}
+
+#img1 img {
+  border-radius: 50px 50px 50px 50px;
+}
+
+#here {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.stack {
+  margin: 40%;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-right: 25%;
+  text-align: center;
+}
+
+.empty {
+  border: 1px solid white;
+  width: 50%;
+  height: 20px;
+  border-radius: 50px;
+  transform: translateY(-100px);
+  margin-left: 10%;
+  background-color: white;
+}
+
+#emm {
+  border: 1px solid red;
+  width: 10px;
+  margin-left: 50%;
+  margin-top: 50px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: red;
+}
+
+#em {
+  border: 3px solid red;
+  width: 10px;
+  margin-left: 52%;
+  margin-top: -15px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: #fff;
+  transform: translateX(40px);
+}
+
+#e {
+  border: 1px solid red;
+  width: 10px;
+  margin-left: 54%;
+  margin-top: -15px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: red;
+  transform: translateX(80px);
+}
+
+#cl {
+  padding-bottom: 6%;
+}
+
+#cars {
+  padding: 4%;
+}
+
+#car {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#carr {
+  text-align: center;
+}
+
+#imgcar {
+  margin-left: 350px;
+}
+
+#btn11 {
+  border: 1px solid red;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(58, 56, 56);
+  color: red;
+}
+
+#makeup {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#sephora {
+  margin-left: 300px;
+}
+
+#btn111 {
+  border: 1px solid red;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(58, 56, 56);
+  color: red;
+}
+
+#carrr {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#imgcarr {
+  margin-left: 350px;
+}
+
+#more {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#more h1 {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#blog {
+  display: flex;
+  margin-left: 150px;
+}
+
+#btn0 {
+  margin-left: 830px;
+  width: 240px;
+  height: 70px;
+  border: 1px solid red;
+  background-color: #111;
+  color: red;
+  border-radius: 20px;
+}
+
+#blog1 {
+  margin-left: 210px;
+}
+
+#blog11 {
+  margin-left: 150px;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.white h5 {
+  color: red;
+}
+
+#cars {
+  background-color: #111;
+  color: white;
+}
+
+.cont5 {
+  background-color: #111;
+  color: white;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  padding: 8%;
+  gap: 15%;
+}
+
+.cont5 img {
+  width: 120%;
+  height: 330px;
+}
+
+.cont5 div div {
+  padding-top: 5%;
+}
+
+.b1 {
+  background-color: orangered;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+  color: white;
+  margin-right: 3%;
+}
+
+.b2 {
+  background-color: #111;
+  border: 2px solid orangered;
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+  color: white;
+}
+
+.sixth-container {
+  background-color: rgb(224, 218, 218);
+  height: 580px;
+  padding-top: 5px;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  grid-gap: 10px;
+}
+
+.f-fa-faa {
+  background-color: white;
+}
+
+.sixth-container-2 {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 10px;
+  margin-left: 250px;
+}
+
+.sixth-container-2 > div {
+  width: 300px;
+  height: 200px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.sixth-container-2 div p {
+  color: #333;
+}
+
+.sixth-container-1 {
+  text-align: center;
+}
+
+.sixth-container-1 p {
+  color: #333;
+  font-size: medium;
+}
+
+.f-fa {
+  background-color: #333;
+}
+
+.f-fa p {
+  color: white !important;
+}
+
+.f-fa h3 {
+  color: white;
+}
+
+.sixth-container-3 > button {
+  background-color: orangered;
+  width: 115px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-left: 565px;
+}
+
+.seventh-container {
+  height: 150px;
+  text-align: center;
+}
+
+.seventh-container p {
+  color: #333;
+}
+
+.eighth-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  background-color: #333;
+  color: white;
+  height: 270px;
+}
+
+.eighth-container div {
+  margin-left: 30px;
+}
+
+.eighth-container > div > img {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+  padding-top: 10px;
+}
+
+.eighth-container-2 {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.eighth-container-2 div {
+  margin-left: 0px;
+}
+
+.eighth-container-2 div p {
+  color: orangered;
+  text-shadow: none;
+}
+
+.cont9 {
+  height: 100%;
+  background-color: rgb(224, 218, 218);
+  display: grid;
+  grid-template-columns: 60% 30%;
+  padding: 5%;
+}
+
+#cont91 {
+  margin-top: 25px;
+  margin-left: 10px;
+  padding-left: 15%;
+  width: 55%;
+}
+
+.cont9 > div > button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 140px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.cont10 {
+  height: 400px;
+}
+
+.cont101 {
+  width: 50%;
+  height: 250px;
+  background-color: #333;
+  margin-top: 70px;
+  margin-left: 15%;
+  border-radius: 15px;
+  padding-left: 20%;
+}
+
+.cont101 > h2 {
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+  width: 45%;
+  padding-left: 10%;
+}
+
+.cont101 > button {
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: orangered;
+}
+
+.f0 {
+  display: grid;
+  grid-template-columns: 25% 8% 8% 8%;
+  color: white;
+  background-color: #333;
+  gap: 10%;
+  padding: 4%;
+}
+
+.f1 > p {
+  width: 66%;
+}
+
+.f4 > p,
+.f2 > p,
+.f3 > p {
+  padding-bottom: 6%;
+}
